@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visual Programming Tool</title>
+        <link rel="stylesheet" href="./res/styles/home.css"/>
+        <script src="./res/scripts/index.js"></script>
+        <script src="./res/api/Block.js"></script>
+    </head>
+    <body>
+        <div id="btnDiv">
+            <input type="button" onclick="newProject();" value="New Project"/>
+            <input type="button" onclick="addProject();" value="Add Project JSON"/>
+            <input type="button" onclick="getData();" value="Get Project JSON"/>
+            <input type="button" onclick="compileProject();" value="Compile Project"/>
+            <input type="button" onclick="runProject();" value="Run Project"/>
+            <input type="button" onclick="compileCurrent();" value="Compile Current"/>
+            <input type="button" onclick="runCurrent();" value="Run Current"/>
+        </div>
+        <section class="dashboard">
+            <div class="block-container" id="block-container"></div>
+            <div class="workingAreaHolder" id="workingAreaHolder">
+              <div class="settings" id ="settings"><input type="button" id ="newCanvasBtn" value ="New Canvas"></input></div>
+              <div class="canvas" id ="canvas"></div>
+            </div>
+            <div class="codezone" id="codezone">
+              <div class="title">Javascript Equivalent</div>
+              <div id="console" class= "console" ></div>
+              <div class="title">Python Equivalent</div>
+              <div id="console1" class = "console" ></div>
+              <div class="title">Project JSON</div>
+              <div id="console2" class = "console"></div>
+            </div>
+          </section>
+
+    </body>
+</html>
