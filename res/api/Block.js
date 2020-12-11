@@ -834,9 +834,6 @@ class Block{
     Globals.draggedBlock = null;
     // block.setAssociatedCanvas(Globals.currentCanvas);
     block.setPosition('');
-
-    var audio = new Audio('../resources/audio/stapler.mp3');
-    audio.play();
   }
 
 
@@ -851,8 +848,6 @@ class Block{
       // block.setAsDropzone(false);
       // console.log(block);
 
-      var audio = new Audio('../resources/audio/stapler.mp3');
-      audio.play();
       // block.setAssociatedCanvas(Globals.currentCanvas);
       Globals.draggedBlock = null;
     }
@@ -876,8 +871,6 @@ class Block{
     block.setAsDropzone(false);
     console.log(block);
 
-    var audio = new Audio('../resources/audio/stapler.mp3');
-    audio.play();
     // block.setAssociatedCanvas(Globals.currentCanvas);
     Globals.draggedBlock = null;
   }
